@@ -38,7 +38,7 @@ body:
    - type: dropdown
      id: Component/s
      attributes:
-      label: Component/s:
+      label: Component/s
       multiple: true
       options:
         - Ordered Services
