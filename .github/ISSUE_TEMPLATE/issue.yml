@@ -36,8 +36,8 @@ body:
         - Medium
         - Low
    - type: dropdown
-    id: Component/s
-    attributes:
+     id: Component/s
+     attributes:
       label: Component/s:
       multiple: true
       options:
