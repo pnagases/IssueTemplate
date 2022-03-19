@@ -36,6 +36,15 @@ body:
         - Medium
         - Low
   - type: dropdown
+    id: Components
+    attributes:
+      label: Components
+      multiple: true
+      options:
+        - AWS
+        - AZURE
+        - GCP      
+  - type: dropdown
     id: version
     attributes:
       label: Version
