@@ -1,9 +1,9 @@
 name: Bug Report
 description: File a bug report
 title: "[Bug]: "
-labels: ["bug", "triage"]
+labels: ["ESQA", "ESQA_VF", "ESQAAUTO"]
 assignees:
-  - octocat
+  - seshu
 body:
   - type: markdown
     attributes:
