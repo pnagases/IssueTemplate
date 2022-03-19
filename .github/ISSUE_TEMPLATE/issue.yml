@@ -27,6 +27,27 @@ body:
     validations:
       required: true
   - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      multiple: false
+      options:
+        - High
+        - Medium
+        - Low
+   - type: dropdown
+    id: Component/s
+    attributes:
+      label: Component/s:
+      multiple: true
+      options:
+        - Ordered Services
+        - AWS
+        - AZURE
+        - UI-Orders
+        - UI-Store
+        - CartServices
+  - type: dropdown
     id: version
     attributes:
       label: Version
