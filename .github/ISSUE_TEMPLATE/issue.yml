@@ -35,18 +35,6 @@ body:
         - High
         - Medium
         - Low
-   - type: dropdown
-     id: Component/s
-     attributes:
-      label: Component/s
-      multiple: true
-      options:
-        - Ordered Services
-        - AWS
-        - AZURE
-        - UI-Orders
-        - UI-Store
-        - CartServices
   - type: dropdown
     id: version
     attributes:
