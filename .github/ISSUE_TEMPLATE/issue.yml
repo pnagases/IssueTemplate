@@ -56,6 +56,20 @@ body:
         - AIOPS
         - Common Services
   - type: dropdown
+    id: Engineering Squad
+    attributes:
+      label: Engineering Squad
+      multiple: false
+      options:
+        - Manage Orders
+        - Managed Services
+        - CORE UI
+        - CORE PLUS
+        - Common Services A
+        - Common Services B
+        - SNOW
+        - vRA
+  - type: dropdown
     id: Components
     attributes:
       label: Components
