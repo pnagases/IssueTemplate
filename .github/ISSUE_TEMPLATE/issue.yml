@@ -1,7 +1,7 @@
 name: Bug Report
 description: File a bug report
 title: "[Bug]: "
-labels: ["ESQA", "ESQA_VF", "ESQAAUTO"]
+labels: ["bug"]
 assignees:
   - seshu
 body:
@@ -35,6 +35,26 @@ body:
         - High
         - Medium
         - Low
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      multiple: false
+      options:
+        - Sev1
+        - Sev2
+        - Sev3
+  - type: dropdown
+    id: application
+    attributes:
+      label: Application
+      multiple: false
+      options:
+        - Consume
+        - Core
+        - CAM
+        - AIOPS
+        - Common Services
   - type: dropdown
     id: Components
     attributes:
