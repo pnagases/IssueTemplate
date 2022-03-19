@@ -56,9 +56,9 @@ body:
         - AIOPS
         - Common Services
   - type: dropdown
-    id: Engineering Squad
+    id: EngineeringSquad
     attributes:
-      label: Engineering Squad
+      label: EngineeringSquad
       multiple: false
       options:
         - Manage Orders
