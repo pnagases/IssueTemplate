@@ -86,6 +86,8 @@ body:
       options:
         - 1.0.2 (Default)
         - 1.0.3 (Edge)
+        - 1.0.4 (Edge)
+        - 1.0.5 (Edge)
     validations:
       required: true
   - type: dropdown
